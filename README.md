@@ -1,3 +1,26 @@
+# My solution for gophercises Exercise #1
+
+There are 2 parameters: 
+`-csv` for the csv file name, and `-limit` for time limit of each quiz
+
+## How to use:
+
+Get help on how to choose the parameters
+
+`` $go build quiz.go && ./quiz -h`` 
+
+Use default values
+
+`` $go build quiz.go && ./quiz `` 
+
+Set time limit to 5
+
+`` $go build quiz.go && ./quiz -limit 5`` 
+
+
+
+
+
 # Exercise #1: Quiz Game
 
 [![exercise status: released](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/quiz)
