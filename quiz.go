@@ -97,7 +97,7 @@ func showQuiz(quizNum int, quiz string, ans int, correctAns *int, over chan<- in
 	over <- 0
 }
 
-func countTime(limitTime int, over chan int, quizNum int) {
+func countTime(limitTime int, over chan<- int, quizNum int) {
 	// Calling Sleep method
 	time.Sleep(time.Duration(limitTime) * time.Second)
 
