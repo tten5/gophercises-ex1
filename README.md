@@ -1,5 +1,7 @@
 # My solution for gophercises Exercise #1
 
+The exercise: https://courses.calhoun.io/lessons/les_goph_01 
+
 There are 2 parameters: 
 `-csv` for the csv file name, and `-limit` for time limit of each quiz
 
